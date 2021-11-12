@@ -32,7 +32,6 @@ Car.prototype = {
     }
   }
 };
-
 // Cоздаю дочерние классы 
 function Bmw() {
   Car.apply(this, arguments);
@@ -46,10 +45,18 @@ function Lexus() {
 }
 Lexus.prototype = Object.create(Car.prototype);
 
+Lexus.prototype.cruiseControl = function () {
+  console.log('Вы включили функцию круиз контроль, Поздравляю');
+};
+
 function Chevrolet() {
   Car.apply(this, arguments);
 }
+
 Chevrolet.prototype = Object.create(Car.prototype);
+Chevrolet.prototype.doorOpenBykickInTheMirror = function () {
+  console.log('Можно же было и ключем открыть, дурында');
+};
 
 let bmw = new Bmw('bmw', 'x5', 2016, 'красный');
 let lexus = new Lexus("lexus", "хуйня", 1000, "красный");
