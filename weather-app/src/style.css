@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: #f0ece7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px rgb(123, 129, 150);
+}
+
+.form {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.form form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.form form input {
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  width: 17%;
+  background: transparent;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 17px;
+}
+.form form button {
+  border-radius: 5px;
+  border:1px solid cadetblue;
+  width: 17%;
+  background: transparent;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 17px;
+  color: rgb(20, 101, 167);
+}
+.form form button:hover {
+  color: red;
+  transition: 0.2s;
+}
+.output {
+  margin-top: 30px;
+}
+.output .output-introdaction {
+  margin-bottom: 45px;
+}
+.output .img {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.img img {
+  width: 64px;
+  height: 64px;
+}
+.img img {
+  border-radius: 7px;
+  
+}
+.output .show-temperature {
+  font-size: 35px;
+  color: darkblue;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.output .show-city-country {
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Big Shoulders Text', cursive;
+}
+.output-main-result {
+  padding: 30px;
+}
+.output-main-result ul {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  gap: 20px;
+  font-size: 17px;
+  justify-content: center;
+}
+.output-main-result ul li {
+  width: 31.6%;
+  text-align: center;
+  font-family: 'Big Shoulders Text', cursive;
+}

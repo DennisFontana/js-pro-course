@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="form">
+        <form action="#" id="form">
+          <input type="text" id="city" placeholder="city" />
+          <input type="text" id="country" placeholder="counter" />
+          <button id="submit-button" type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="output" id="output">
+        <div class="output-introdaction">
+          <div class="img">
+            <img src="" alt="" />
+          </div>
+          <div class="show-temperature">℃</div>
+          <div class="show-city-country"></div>
+        </div>
+        <div class="output-main-result">
+          <ul>
+            <li>time:</li>
+            <li>feels like</li>
+            <li>humidity:</li>
+            <li>presure:</li>
+            <li>today is</li>
+            <li>wind speed</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
