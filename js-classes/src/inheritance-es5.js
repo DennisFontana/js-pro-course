@@ -59,5 +59,5 @@ Chevrolet.prototype.doorOpenBykickInTheMirror = function () {
 };
 
 let bmw = new Bmw('bmw', 'x5', 2016, 'красный');
-let lexus = new Lexus("lexus", "хуйня", 1000, "красный");
+let lexus = new Lexus("lexus", "shmexus", 1000, "красный");
 let chevrolet = new Chevrolet('chevrolet', 'malibu', 1996, 'розовый');

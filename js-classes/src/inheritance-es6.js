@@ -54,7 +54,7 @@ class Bmw extends Car {
   }
   set setCountryName(name) {
     if (name != "Germany") {
-      console.log("иди нахуй");
+      console.log("ага, счас");
     } else this.#country = name;
   }
   methodBrainCrazy() {
@@ -64,9 +64,9 @@ class Bmw extends Car {
     let carInfo = super.getFullName();
     let climate;
     if (this.condition) {
-      climate = "ага ,заебись";
+      climate = "ага , класс";
     } else {
-      climate = "хуедненьким, пиздец жарко";
+      climate = "жутко жарко";
     }
     return `${carInfo}, в машине дует холодненьким: ${climate}`;
   }
@@ -94,7 +94,7 @@ class Lexus extends Car {
 
 class Chevrolet extends Car {
   constructor(name, model, year, color, maxSpeed, fuelCapacity = 60, fuelConsumption = 10, transmision) {
-    super(name, model, year, color, maxSpeed, fuelCapacity = 60, fuelConsumption = 10)
+    super(name, model, year, color, maxSpeed, fuelCapacity, fuelConsumption)
     this.transmision = transmision;
   }
   doorOpenBykickInTheMirror () {
