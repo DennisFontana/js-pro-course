@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px
+}
+
+li {
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 70px;
+  height: 70px;
+}
