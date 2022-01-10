@@ -1,0 +1,13 @@
+.select {
+  text-align: center;
+}
+label select {
+  text-align: center;
+  width: 50%;
+  height: 50px;
+  border-radius:10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  appearance: none;
+}
+
